@@ -5,10 +5,10 @@ import React from "react";
 const HomePage = () => {
   return (
     <>
-      <div className="w-full">
-        <div className="s flex justify-center items-center ">
-          <div className="w-[40%] mt-8 shadow-2xl rounded-[20px] ">
-            <div className="flex justify-between   h-[50vh] rounded-[20px]">
+      <div className="w-full mt-8 mb-8">
+        <div className=" flex justify-center items-center ">
+          <div className="md:w-[40%] md:mt-8 shadow-2xl rounded-[20px] w-[80%] ">
+            <div className="flex  w-full h-[100vh] md:h-[60vh] rounded-[20px] flex-col md:flex-row gap-0">
               <div className="w-full  bg-gradient-to-b from-indigo-500 to-blue-700 rounded-[20px] text-white flex justify-center items-center gap-10 flex-col">
                 <div className="flex justify-center items-center top-0">
                   <h3>Your Result</h3>
