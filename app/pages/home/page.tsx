@@ -5,24 +5,24 @@ import React from "react";
 const HomePage = () => {
   return (
     <>
-      <div className="flex-1">
-        <div className="w-full flex justify-center items-center ">
-          <div className="w-[40%] mt-8 shadow-2xl rounded-[20px]">
+      <div className="w-full">
+        <div className="s flex justify-center items-center ">
+          <div className="w-[40%] mt-8 shadow-2xl rounded-[20px] ">
             <div className="flex justify-between   h-[50vh] rounded-[20px]">
-              <div className="w-full bg-[#413ef3] rounded-[20px] text-white flex justify-center items-center gap-10 flex-col">
+              <div className="w-full  bg-gradient-to-b from-indigo-500 to-blue-700 rounded-[20px] text-white flex justify-center items-center gap-10 flex-col">
                 <div className="flex justify-center items-center top-0">
                   <h3>Your Result</h3>
                 </div>
                 <div className="flex justify-center flex-col items-center gap-6">
-                  <div className="w-[150px] h-[150px] bg-[#3c39cc] rounded-full flex justify-center items-center ">
+                  <div className="w-[150px] h-[150px] bg-gradient-to-t from-indigo-600 to-blue-500 rounded-full flex justify-center items-center opacity-60">
                     <div className="flex justify-center items-center flex-col">
-                      <h4 className="text-4xl">76</h4>
+                      <h4 className="text-4xl font-hanken">76</h4>
                       <p> of 100</p>
                     </div>
                   </div>
                   <div className="flex justify-center items-center flex-col">
                     <div className="flex justify-center items-center flex-col gap-6">
-                      <h3>Great</h3>
+                      <h3 className="text-3xl">Great</h3>
                       <p className="text-center w-[230px]">
                         You scored higher than 65% of the people who have taken
                         these tests.
@@ -134,9 +134,9 @@ const HomePage = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="w-full mt-2">
-                    <div>
-                      <Button className="w-full rounded-[50px] p-8 bg-[#23233a]">
+                  <div className="w-full mt-8">
+                    <div className="">
+                      <Button className="w-full rounded-[50px] py-[22px] bg-[#23233a]">
                         Continue
                       </Button>
                     </div>
