@@ -6,7 +6,7 @@ const HomePage = () => {
     <>
       <div className="flex-1">
         <div className="w-full flex justify-center items-center ">
-          <div className="w-[50%] mt-8">
+          <div className="w-[50%] mt-8 shadow-2xl rounded-[20px]">
             <div className="flex justify-between   h-[50vh] rounded-[20px]">
               <div className="w-full bg-[#413ef3] rounded-[20px] text-white flex justify-center items-center gap-10 flex-col">
                 <div className="flex justify-center items-center top-0">
@@ -56,22 +56,64 @@ const HomePage = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="bg-yellow-200 w-full ">
+                    <div className="bg-yellow-200 w-full  p-2 rounded-md">
                       <div className="flex justify-between items-center">
-                        <div>1</div>
-                        <div>2</div>
+                        <div className="w-full">
+                          <div className="flex justify-start items-center gap-2">
+                            <Image
+                              src="/images/icon-reaction.svg"
+                              alt="reaction"
+                              width={20}
+                              height={10}
+                            />
+                            <div>
+                              <h5 className="text-red-400">Reaction</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="flex justify-end items-center flex-row w-full">
+                          <h5>80 / 100</h5>
+                        </div>
                       </div>
                     </div>
-                    <div className="bg-green-200 w-full">
+                    <div className="bg-green-200 w-full  p-2 rounded-md">
                       <div className="flex justify-between items-center">
-                        <div>1</div>
-                        <div>2</div>
+                        <div className="w-full">
+                          <div className="flex justify-start items-center gap-2">
+                            <Image
+                              src="/images/icon-reaction.svg"
+                              alt="reaction"
+                              width={20}
+                              height={10}
+                            />
+                            <div>
+                              <h5 className="text-red-400">Reaction</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="flex justify-end items-center flex-row w-full">
+                          <h5>80 / 100</h5>
+                        </div>
                       </div>
                     </div>
-                    <div className="bg-blue-200 w-full">
+                    <div className="bg-blue-200 w-full  p-2 rounded-md">
                       <div className="flex justify-between items-center">
-                        <div>1</div>
-                        <div>2</div>
+                        <div className="w-full">
+                          <div className="flex justify-start items-center gap-2">
+                            <Image
+                              src="/images/icon-reaction.svg"
+                              alt="reaction"
+                              width={20}
+                              height={10}
+                            />
+                            <div>
+                              <h5 className="text-red-400">Reaction</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="flex justify-end items-center flex-row w-full">
+                          <h5>80 / 100</h5>
+                        </div>
                       </div>
                     </div>
                   </div>
